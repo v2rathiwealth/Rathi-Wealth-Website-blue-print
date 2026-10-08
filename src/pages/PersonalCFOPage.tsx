@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, CheckCircle2, ArrowRight, Calendar } from 'lucide-react';
+import { ShieldCheck, CheckCircle2, ArrowRight, Calendar, Users, HeartHandshake } from 'lucide-react';
 import { SEOHead } from '../components/common/SEOHead';
 import { ConsultationModal } from '../components/common/ConsultationModal';
 import { FadeIn, StaggerContainer, StaggerItem, AnimatedCard } from '../components/common/MotionWrapper';
@@ -11,38 +11,38 @@ export const PersonalCFOPage: React.FC = () => {
   const quarters = [
     {
       quarter: 'Quarter 1',
-      focus: 'Family Net Worth Audit & Milestone Calibration',
+      focus: 'Getting Organized & Reviewing Goals',
       deliverables: [
-        'Consolidated balance sheet assembly (mutual funds, EPF, real estate, cash, gold)',
-        'Cash flow audit: Surplus mapping and emergency liquidity buffer verification',
-        'Annual goal calibration: Updating target timelines for children, retirement, and real estate',
+        'Making a complete list of all your assets (mutual funds, PF, property, gold, and cash)',
+        'Checking your monthly income and savings to ensure you have a comfortable emergency fund',
+        'Reviewing your big life goals (buying a home, children’s college, and retirement timeline)',
       ],
     },
     {
       quarter: 'Quarter 2',
-      focus: 'Risk Defense, Insurance & Tax Strategy',
+      focus: 'Protecting What Matters & Smart Tax Saving',
       deliverables: [
-        'Life insurance Human Life Value (HLV) gap review vs new liabilities',
-        'Health insurance policy review (sum insured, super top-up limits, claim history)',
-        'Advance tax and capital gains review with your Chartered Accountant',
+        'Checking if your family has enough pure term insurance to cover home loans and family expenses',
+        'Reviewing your family health insurance so large medical bills never drain your savings',
+        'Planning your tax savings well before March so you never have to scramble at tax time',
       ],
     },
     {
       quarter: 'Quarter 3',
-      focus: 'Portfolio Rebalancing & Asset Allocation',
+      focus: 'Reviewing & Balancing Your Investments',
       deliverables: [
-        'Asset class drift analysis (Equity vs Debt vs Gold vs Liquid)',
-        'Disciplined rebalancing to harvest gains and restore baseline risk targets',
-        'Scheme performance review against benchmark peers; pruning chronic laggards',
+        'Checking if you have the right balance between equity (growth) and debt (safety)',
+        'Removing underperforming funds and eliminating unnecessary fund overlap',
+        'Keeping your monthly SIPs aligned with your goals without trying to time the market',
       ],
     },
     {
       quarter: 'Quarter 4',
-      focus: 'Estate Succession & Next-Gen Stewardship',
+      focus: 'Clear Wills, Nominations & Family Harmony',
       deliverables: [
-        'Comprehensive review of bank, folio, and property nominations',
-        'Testamentary Will audit: Incorporating newly acquired assets or family changes',
-        'Family financial dialogue: Introducing older children to basic compounding principles',
+        'Checking and updating nominee names on all bank accounts, mutual funds, and properties',
+        'Writing or updating a clear, simple Will so your hard-earned wealth is transferred peacefully',
+        'Teaching your children the basics of saving and responsible money habits',
       ],
     },
   ];
@@ -60,13 +60,13 @@ export const PersonalCFOPage: React.FC = () => {
           <FadeIn direction="up">
             <div className="max-w-3xl space-y-4">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Signature Advisory Model
+                Dedicated Family Guidance
               </span>
               <h1 className="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight">
-                The Personal CFO: Your Family’s Financial Quarterback
+                The Personal CFO: A Trusted Guide for Your Family's Money
               </h1>
               <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
-                High-earning families and business founders need more than scattered investment tips. You need a dedicated, trusted strategist who coordinates every moving piece of your balance sheet.
+                Busy professionals, doctors, and business owners don't need scattered tips or sales calls. You need one reliable, trusted partner who coordinates your investments, insurance, retirement, and family future together.
               </p>
             </div>
           </FadeIn>
@@ -79,11 +79,14 @@ export const PersonalCFOPage: React.FC = () => {
           <FadeIn direction="up">
             <div className="text-center space-y-3 mb-12">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                The Fundamental Difference
+                Why Families Choose Us
               </span>
               <h2 className="text-3xl font-serif font-bold text-[#0A1F44]">
                 Bank Relationship Manager vs Your Personal CFO
               </h2>
+              <p className="text-sm text-slate-600 max-w-2xl mx-auto">
+                Here is why having an independent family advisor gives you true peace of mind.
+              </p>
             </div>
           </FadeIn>
 
@@ -92,36 +95,36 @@ export const PersonalCFOPage: React.FC = () => {
               <table className="w-full text-left text-xs sm:text-sm">
                 <thead>
                   <tr className="bg-slate-100 border-b border-slate-200 text-slate-800">
-                    <th className="p-4 sm:p-5 font-bold">Dimension</th>
-                    <th className="p-4 sm:p-5 font-bold text-slate-500">Traditional Distributor / Bank RM</th>
+                    <th className="p-4 sm:p-5 font-bold">What Matters Most</th>
+                    <th className="p-4 sm:p-5 font-bold text-slate-500">Bank RM / Traditional Agent</th>
                     <th className="p-4 sm:p-5 font-bold text-[#0A1F44] bg-[#E6F1FB]/70">Rathi Wealth Personal CFO</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100">
                   <tr>
-                    <td className="p-4 sm:p-5 font-semibold text-slate-900">Primary Objective</td>
-                    <td className="p-4 sm:p-5 text-slate-600">Meeting quarterly product sales quotas and commission targets.</td>
-                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Ensuring all family milestones are systematically funded and protected.</td>
+                    <td className="p-4 sm:p-5 font-semibold text-slate-900">Main Goal</td>
+                    <td className="p-4 sm:p-5 text-slate-600">Meeting monthly sales targets and earning product commissions.</td>
+                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Ensuring all your family life goals are planned for and fully protected.</td>
                   </tr>
                   <tr>
-                    <td className="p-4 sm:p-5 font-semibold text-slate-900">Scope of View</td>
-                    <td className="p-4 sm:p-5 text-slate-600">Only the specific fund or insurance scheme they sell you.</td>
-                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Your entire balance sheet: real estate, cash, liabilities, taxes, and Will.</td>
+                    <td className="p-4 sm:p-5 font-semibold text-slate-900">What They Look At</td>
+                    <td className="p-4 sm:p-5 text-slate-600">Only the specific fund or insurance policy they want to sell you.</td>
+                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Your complete picture: savings, loans, insurance, taxes, and Will.</td>
                   </tr>
                   <tr>
-                    <td className="p-4 sm:p-5 font-semibold text-slate-900">During Market Crashes</td>
-                    <td className="p-4 sm:p-5 text-slate-600">Often disappear or advise switching funds to generate new transaction revenue.</td>
-                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Actively guides behavior, rebalances according to the asset plan, and prevents panic selling.</td>
+                    <td className="p-4 sm:p-5 font-semibold text-slate-900">During Market Ups & Downs</td>
+                    <td className="p-4 sm:p-5 text-slate-600">Often disappear during crashes or push you to trade frequently.</td>
+                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Guides you calmly, keeps your plan steady, and stops costly panic mistakes.</td>
                   </tr>
                   <tr>
-                    <td className="p-4 sm:p-5 font-semibold text-slate-900">Relationship Horizon</td>
-                    <td className="p-4 sm:p-5 text-slate-600">Changes every 12–18 months due to frequent bank staff turnover.</td>
-                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Decade-long continuity with principal founder Umesh Rathi.</td>
+                    <td className="p-4 sm:p-5 font-semibold text-slate-900">Who You Deal With</td>
+                    <td className="p-4 sm:p-5 text-slate-600">Changes every 12 to 18 months due to frequent job switches.</td>
+                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Decades of continuity directly with Umesh Rathi and our senior team.</td>
                   </tr>
                   <tr>
-                    <td className="p-4 sm:p-5 font-semibold text-slate-900">Succession & Heirs</td>
-                    <td className="p-4 sm:p-5 text-slate-600">No involvement in family transmission or nominee alignment.</td>
-                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Prepares heirs with financial literacy and manages nomination/Will clarity.</td>
+                    <td className="p-4 sm:p-5 font-semibold text-slate-900">Next Generation & Family</td>
+                    <td className="p-4 sm:p-5 text-slate-600">No help with Will writing, nomination updates, or teaching kids.</td>
+                    <td className="p-4 sm:p-5 text-[#0A1F44] font-medium bg-[#E6F1FB]/30">Helps write clear Wills, updates nominations, and teaches your children good money habits.</td>
                   </tr>
                 </tbody>
               </table>
@@ -136,13 +139,13 @@ export const PersonalCFOPage: React.FC = () => {
           <FadeIn direction="up">
             <div className="text-center max-w-2xl mx-auto space-y-3 mb-16">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Institutional Operating Rhythm
+                How We Work With You
               </span>
               <h2 className="text-3xl font-serif font-bold text-[#0A1F44]">
-                The Annual Operating Cadence
+                Our 4-Quarter Annual Rhythm
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed">
-                We do not believe in once-in-three-years reviews. Our structured quarterly operating cycle ensures your wealth stays perpetually in sync with your life.
+                We don’t just create a plan and forget about it. Every quarter, we review a specific part of your family finances to make sure everything stays on track.
               </p>
             </div>
           </FadeIn>
@@ -183,14 +186,14 @@ export const PersonalCFOPage: React.FC = () => {
               Ready to appoint a Personal CFO for your family?
             </h2>
             <p className="text-sm text-slate-600 max-w-xl mx-auto leading-relaxed mt-2">
-              We limit our active family relationships to ensure deep principal-level attention. Contact us for an exploratory dialogue.
+              We work closely with a selective number of families to give each family our personal, dedicated attention. Let's start with a friendly, no-obligation conversation.
             </p>
             <div className="pt-4">
               <button
                 onClick={() => setConsultationOpen(true)}
                 className="px-8 py-3.5 rounded-lg bg-[#0A1F44] hover:bg-[#162f5e] text-white font-bold text-sm transition-all shadow-md inline-flex items-center gap-2 cursor-pointer"
               >
-                <span>Request Initial Discovery Meeting</span>
+                <span>Book an Introductory Discovery Call</span>
                 <ArrowRight className="w-4 h-4 text-[#C9A84C]" />
               </button>
             </div>
@@ -206,4 +209,5 @@ export const PersonalCFOPage: React.FC = () => {
     </>
   );
 };
+
 

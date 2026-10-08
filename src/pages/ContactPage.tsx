@@ -55,7 +55,7 @@ export const ContactPage: React.FC = () => {
                 Start a Conversation.
               </h1>
               <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
-                We begin every new relationship with a calm, 30-minute discovery conversation to understand your balance sheet goals and ensure mutual philosophical fit.
+                We begin every new relationship with a friendly, 30-minute introductory conversation to understand your family goals and answer your questions. No sales pressure, ever.
               </p>
             </div>
           </FadeIn>
@@ -291,12 +291,12 @@ export const ContactPage: React.FC = () => {
                           onChange={(e) => setTopic(e.target.value)}
                           className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[#0A1F44]"
                         >
-                          <option value="Personal CFO Multi-Generational Advisory">Personal CFO Multi-Generational Advisory</option>
-                          <option value="Portfolio Diagnostic & Mutual Fund Review">Portfolio Diagnostic & Mutual Fund Review</option>
-                          <option value="Retirement Independence Modeling">Retirement Independence Modeling</option>
-                          <option value="Life & Health Insurance Coverage Audit">Life & Health Insurance Coverage Audit</option>
-                          <option value="Succession, Will & Estate Planning">Succession, Will & Estate Planning</option>
-                          <option value="Corporate / Campus Financial Wellness Workshop">Corporate / Campus Financial Wellness Workshop</option>
+                          <option value="Personal CFO Family Advisory (Everything Together)">Personal CFO Family Advisory (Everything Together)</option>
+                          <option value="Mutual Funds & Portfolio Review">Mutual Funds & Portfolio Review</option>
+                          <option value="Retirement & Monthly Pension Planning">Retirement & Monthly Pension Planning</option>
+                          <option value="Family Insurance & Health Protection Review">Family Insurance & Health Protection Review</option>
+                          <option value="Will Writing & Wealth Transfer">Will Writing & Wealth Transfer</option>
+                          <option value="Corporate / College Workshop Booking">Corporate / College Workshop Booking</option>
                         </select>
                       </div>
 

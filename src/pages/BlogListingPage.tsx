@@ -41,7 +41,7 @@ export const BlogListingPage: React.FC = () => {
                 The Knowledge Centre
               </h1>
               <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
-                Objective, mathematically grounded essays designed to help families make thoughtful, long-term decisions with their capital.
+                Clear, simple money guides to help you make smart, long-term decisions for your family without getting lost in financial jargon.
               </p>
             </div>
           </FadeIn>

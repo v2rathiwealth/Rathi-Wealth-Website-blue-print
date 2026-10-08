@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all">
         {/* Top announcement bar for quiet trust */}
         <div className="bg-[#0A1F44] text-slate-200 text-xs py-1.5 px-4">
-          <div className="max-w-7xl mx-auto flex items-center justify-between gap-4 text-[11px] sm:text-xs">
+          <div className="max-w-7xl 2xl:max-w-screen-2xl mx-auto flex items-center justify-between gap-4 text-[11px] sm:text-xs">
             <p className="hidden md:block tracking-wide truncate text-slate-300">
               AMFI Registered Mutual Fund Distributor · Wealth For Generations · Over 20 Years Experience
             </p>
@@ -54,15 +54,15 @@ export const Header: React.FC = () => {
         </div>
 
         {/* Primary Navbar */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between gap-3 xl:gap-6 h-20">
+        <div className="max-w-7xl 2xl:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between gap-3 xl:gap-5 2xl:gap-8 h-20">
             {/* Logo */}
             <Link
               to="/"
-              className="flex items-center gap-2.5 sm:gap-3.5 group shrink-0 select-none py-1"
+              className="flex items-center gap-2.5 sm:gap-3 group shrink-0 select-none py-1"
               aria-label="Rathi Wealth Home"
             >
-              <div className="relative w-10 h-10 sm:w-11 sm:h-11 xl:w-12 xl:h-12 flex items-center justify-center transition-transform group-hover:scale-105 shrink-0">
+              <div className="relative w-9 h-9 sm:w-10 sm:h-10 xl:w-11 xl:h-11 flex items-center justify-center transition-transform group-hover:scale-105 shrink-0">
                 <img
                   src="/images/logo-icon.png"
                   alt="Rathi Wealth Emblem"
@@ -70,24 +70,24 @@ export const Header: React.FC = () => {
                 />
               </div>
               <div className="flex flex-col shrink-0 min-w-0">
-                <span className="text-lg sm:text-xl xl:text-2xl font-serif tracking-tight text-[#0A1F44] font-bold leading-none whitespace-nowrap">
+                <span className="text-base sm:text-lg xl:text-xl font-serif tracking-tight text-[#0A1F44] font-bold leading-none whitespace-nowrap">
                   RATHI WEALTH
                 </span>
-                <span className="text-[9px] sm:text-[10px] xl:text-[11px] tracking-[0.16em] uppercase font-semibold text-[#C9A84C] whitespace-nowrap leading-tight mt-1">
+                <span className="text-[8.5px] sm:text-[9.5px] xl:text-[10px] tracking-[0.14em] uppercase font-semibold text-[#C9A84C] whitespace-nowrap leading-tight mt-0.5">
                   Wealth For Generations
                 </span>
               </div>
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-0.5 xl:space-x-1 shrink min-w-0" aria-label="Main Navigation">
+            <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 2xl:gap-1.5 shrink-0" aria-label="Main Navigation">
               {navLinks.map((link) => {
                 const active = isActive(link.path);
                 return (
                   <Link
                     key={link.path}
                     to={link.path}
-                    className={`relative px-2 py-1.5 xl:px-3 xl:py-2 text-xs xl:text-sm font-medium whitespace-nowrap transition-colors rounded-md ${
+                    className={`relative px-1.5 py-1.5 xl:px-2.5 xl:py-1.5 2xl:px-3 2xl:py-2 text-[11px] xl:text-xs 2xl:text-sm font-medium whitespace-nowrap transition-colors rounded-md ${
                       link.highlight
                         ? active
                           ? 'text-[#0A1F44] font-semibold'
@@ -102,7 +102,7 @@ export const Header: React.FC = () => {
                       <span>{link.name}</span>
                     </span>
                     {active && (
-                      <span className="absolute bottom-0 left-2 right-2 xl:left-3 xl:right-3 h-0.5 bg-[#C9A84C] rounded-full" />
+                      <span className="absolute bottom-0 left-1.5 right-1.5 xl:left-2 xl:right-2 2xl:left-3 2xl:right-3 h-0.5 bg-[#C9A84C] rounded-full" />
                     )}
                   </Link>
                 );
@@ -110,14 +110,15 @@ export const Header: React.FC = () => {
             </nav>
 
             {/* Desktop CTA */}
-            <div className="hidden lg:flex items-center shrink-0">
+            <div className="hidden lg:flex items-center shrink-0 ml-2 xl:ml-3">
               <button
                 onClick={() => setConsultationOpen(true)}
-                className="inline-flex items-center gap-1.5 xl:gap-2 px-3.5 py-2 xl:px-5 xl:py-2.5 rounded-lg text-xs xl:text-sm font-medium text-white bg-[#0A1F44] hover:bg-[#162f5e] transition-all shadow-sm hover:shadow whitespace-nowrap cursor-pointer"
+                className="inline-flex items-center gap-1.5 xl:gap-2 px-3 py-1.5 xl:px-4 xl:py-2 2xl:px-4.5 2xl:py-2.5 rounded-lg text-xs xl:text-sm font-medium text-white bg-[#0A1F44] hover:bg-[#162f5e] transition-all shadow-sm hover:shadow whitespace-nowrap cursor-pointer shrink-0"
               >
                 <PhoneCall className="w-3.5 h-3.5 xl:w-4 xl:h-4 text-[#C9A84C] shrink-0" />
-                <span className="hidden xl:inline">Schedule a Consultation</span>
-                <span className="xl:hidden">Book Consultation</span>
+                <span className="hidden 2xl:inline">Schedule Consultation</span>
+                <span className="hidden xl:inline 2xl:hidden">Consultation</span>
+                <span className="xl:hidden">Consult</span>
               </button>
             </div>
 

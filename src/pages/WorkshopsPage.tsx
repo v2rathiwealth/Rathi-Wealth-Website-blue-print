@@ -27,13 +27,13 @@ export const WorkshopsPage: React.FC = () => {
           <FadeIn direction="up">
             <div className="max-w-3xl space-y-4">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Financial Education · Over 100 Sessions Delivered
+                Free Financial Literacy Sessions
               </span>
               <h1 className="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight">
-                Investor Awareness Programmes
+                Simple Money Workshops for Teams & Colleges
               </h1>
               <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
-                Empowering organizations with non-commercial, unbiased financial literacy. We teach employees and leaders how to de-risk family finances, navigate compounding, and avoid speculative traps.
+                Practical, zero-sales sessions that teach working professionals and young adults how to budget salary, start smart monthly SIPs, avoid costly mistakes, and build financial security.
               </p>
             </div>
           </FadeIn>
@@ -50,9 +50,9 @@ export const WorkshopsPage: React.FC = () => {
                   <ShieldCheck className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-base font-serif font-bold text-[#0A1F44]">100% Non-Commercial</h3>
+                  <h3 className="text-base font-serif font-bold text-[#0A1F44]">100% Educational — No Sales</h3>
                   <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                    No schemes, insurance products, or investment funds are ever sold or marketed during our sessions.
+                    Zero product selling. We never pitch funds or insurance policies during our workshops.
                   </p>
                 </div>
               </div>
@@ -62,9 +62,9 @@ export const WorkshopsPage: React.FC = () => {
                   <Building2 className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-base font-serif font-bold text-[#0A1F44]">Proven Corporate Impact</h3>
+                  <h3 className="text-base font-serif font-bold text-[#0A1F44]">Loved by Corporate Teams</h3>
                   <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                    Trusted by leading multinational IT companies, manufacturing firms, and professional associations.
+                    Conducted for corporate offices, IT companies, and educational institutions across India.
                   </p>
                 </div>
               </div>
@@ -74,9 +74,9 @@ export const WorkshopsPage: React.FC = () => {
                   <GraduationCap className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-base font-serif font-bold text-[#0A1F44]">Practical & Jargon-Free</h3>
+                  <h3 className="text-base font-serif font-bold text-[#0A1F44]">Easy, Jargon-Free English</h3>
                   <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                    Complex financial mechanics explained with interactive calculators, relatable math, and live Q&A.
+                    Explained with everyday real-life examples, interactive questions, and a friendly live Q&A.
                   </p>
                 </div>
               </div>

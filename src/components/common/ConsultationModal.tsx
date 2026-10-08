@@ -66,10 +66,10 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                 <span>Confidential</span>
               </div>
               <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
-                Schedule a Consultation
+                Book a Free Consultation
               </h3>
               <p className="text-xs text-slate-300 mt-1 max-w-sm">
-                Speak directly with Umesh Rathi and our senior advisory team. No product sales pitch—just clear, fiduciary guidance.
+                Speak directly with Umesh Rathi and our senior advisory team. Zero sales pitch — just friendly, honest guidance.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
             <div>
               <h4 className="text-xl font-bold text-slate-900">Consultation Request Received</h4>
               <p className="text-sm text-slate-600 mt-2 leading-relaxed">
-                Thank you, <strong className="text-slate-800">{name}</strong>. We have logged your request regarding <strong>{topic}</strong>. Our team will connect with you within 24 business hours to confirm your preferred time slot.
+                Thank you, <strong className="text-slate-800">{name}</strong>. We have received your request regarding <strong>{topic}</strong>. Our team will get in touch with you within 24 business hours to confirm your preferred time.
               </p>
             </div>
 
@@ -174,21 +174,21 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 
             <div>
               <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
-                Advisory Focus / Topic
+                What Would You Like to Discuss?
               </label>
               <select
                 value={topic}
                 onChange={(e) => setTopic(e.target.value)}
                 className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[#0A1F44] focus:border-transparent transition-all"
               >
-                <option value="Personal CFO Multi-Generational Advisory">Personal CFO Multi-Generational Advisory</option>
-                <option value="Comprehensive Portfolio & Asset Diagnostic">Comprehensive Portfolio & Asset Diagnostic</option>
-                <option value="Retirement Independence Modeling">Retirement Independence Modeling</option>
+                <option value="Personal CFO Family Advisory (Everything Together)">Personal CFO Family Advisory (Everything Together)</option>
+                <option value="Mutual Funds & Portfolio Review">Mutual Funds & Portfolio Review</option>
+                <option value="Planning for a Comfortable Retirement">Planning for a Comfortable Retirement</option>
                 <option value="Financial Health Check Discussion">Financial Health Check Discussion</option>
-                <option value="Child Higher Education Planning">Child Higher Education Planning</option>
-                <option value="Life & Health Insurance Coverage Review">Life & Health Insurance Coverage Review</option>
-                <option value="Succession, Will & Estate Guidance">Succession, Will & Estate Guidance</option>
-                <option value="Corporate Investor Awareness Workshop">Corporate Investor Awareness Workshop</option>
+                <option value="Child Higher Education Savings">Child Higher Education Savings</option>
+                <option value="Family Insurance & Health Protection">Family Insurance & Health Protection</option>
+                <option value="Will Writing & Wealth Transfer">Will Writing & Wealth Transfer</option>
+                <option value="Company / College Money Workshop">Company / College Money Workshop</option>
               </select>
             </div>
 

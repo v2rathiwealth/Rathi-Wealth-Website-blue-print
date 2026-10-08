@@ -58,7 +58,7 @@ export const HomePage: React.FC = () => {
             <div className="max-w-3xl space-y-6">
               {/* Kicker - Zero pill discipline: clean unboxed text */}
               <div className="flex flex-wrap items-center gap-2 text-xs font-semibold tracking-widest uppercase text-[#C9A84C]">
-                <span>Personal CFO Advisory</span>
+                <span>Personal CFO for Families</span>
                 <span aria-hidden="true">·</span>
                 <span>AMFI Registered</span>
                 <span aria-hidden="true">·</span>
@@ -82,7 +82,7 @@ export const HomePage: React.FC = () => {
                 transition={{ duration: 0.6, delay: 0.1, ease: [0.21, 0.47, 0.32, 0.98] }}
                 className="text-lg sm:text-xl text-slate-200 leading-relaxed font-light"
               >
-                At Rathi Wealth, we redefine financial empowerment by seamlessly blending exceptional financial services with life coaching. We act as your <strong>Personal CFO</strong>—ensuring your wealth aligns with your aspirations, unlocking your full potential, and building legacies that endure across generations.
+                Managing your money should give you complete peace of mind, not stress. At Rathi Wealth, we act as your family’s <strong>Personal CFO</strong> — helping you protect your savings, grow your wealth with disciplined SIPs, plan for your children's future and retirement, and pass on your hard-earned assets safely to the next generation.
               </motion.p>
 
               <motion.div
@@ -97,7 +97,7 @@ export const HomePage: React.FC = () => {
                   onClick={() => setConsultationOpen(true)}
                   className="px-7 py-3.5 rounded-lg bg-[#C9A84C] hover:bg-[#b8973d] text-[#0A1F44] font-bold text-sm transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 group cursor-pointer"
                 >
-                  <span>Schedule a Free Consultation</span>
+                  <span>Book a Free Consultation</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </motion.button>
 
@@ -107,7 +107,7 @@ export const HomePage: React.FC = () => {
                     className="px-6 py-3.5 rounded-lg bg-white/10 hover:bg-white/15 text-white font-medium text-sm transition-colors border border-white/20 flex items-center justify-center gap-2"
                   >
                     <Calculator className="w-4 h-4 text-[#C9A84C]" />
-                    <span>Explore Planning Calculators</span>
+                    <span>Try Free Planning Calculators</span>
                   </Link>
                 </motion.div>
               </motion.div>
@@ -119,11 +119,11 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-[#C9A84C]" />
-                  <span>Zero Product Sales Quotas</span>
+                  <span>100% Unbiased — No Sales Targets</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-[#C9A84C]" />
-                  <span>Life Coaching + Financial Planning</span>
+                  <span>Guiding 150+ Families Across India</span>
                 </div>
               </div>
             </div>
@@ -137,16 +137,16 @@ export const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <FadeIn direction="left" className="lg:col-span-5 space-y-4">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                The Fragmented Balance Sheet
+                Common Money Mistakes
               </span>
               <h2 className="text-3xl font-serif font-bold text-[#0A1F44] tracking-tight">
-                Your money should work together, not in isolated silos.
+                Is your hard-earned money working as hard as you do?
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Most families do not suffer from an income shortage; they suffer from disconnected decisions. An insurance policy bought for tax savings, random mutual fund folios pitched by bank managers, and outdated nominations that contradict testamentary intent.
+                Most families work very hard to earn money, but their savings and investments are scattered all over the place. A few mutual funds bought on casual advice, expensive insurance policies that offer very low returns, and no clear roadmap for the future.
               </p>
               <p className="text-sm text-slate-600 leading-relaxed">
-                When individual financial choices are made in isolation, risk multiplies and compounding slows down.
+                When financial decisions are made in bits and pieces without a plan, wealth grows slowly and unnecessary risks creep in.
               </p>
             </FadeIn>
 
@@ -155,9 +155,9 @@ export const HomePage: React.FC = () => {
                 <StaggerItem>
                   <AnimatedCard className="p-6 bg-white rounded-xl border border-slate-200/80 shadow-xs space-y-2 h-full">
                     <div className="text-xs font-bold text-rose-800 uppercase tracking-wider">Common Trap</div>
-                    <h3 className="text-base font-bold text-slate-900">Ad-Hoc Product Accumulation</h3>
+                    <h3 className="text-base font-bold text-slate-900">Scattered Mutual Funds</h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
-                      Collecting 20+ mutual fund schemes with overlapping stock portfolios, resulting in index-matching returns with elevated expense ratios.
+                      Holding 15–20 different mutual funds across various apps with no clear idea whether they match your real family milestones.
                     </p>
                   </AnimatedCard>
                 </StaggerItem>
@@ -165,9 +165,9 @@ export const HomePage: React.FC = () => {
                 <StaggerItem>
                   <AnimatedCard className="p-6 bg-white rounded-xl border border-slate-200/80 shadow-xs space-y-2 h-full">
                     <div className="text-xs font-bold text-rose-800 uppercase tracking-wider">Common Trap</div>
-                    <h3 className="text-base font-bold text-slate-900">Mixing Insurance with Investment</h3>
+                    <h3 className="text-base font-bold text-slate-900">Low-Return Insurance Policies</h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
-                      Holding traditional endowment or ULIP policies that yield sub-5% returns while leaving dependents severely under-protected.
+                      Paying heavy premiums for traditional endowment or ULIP policies that yield only 4–5% return while leaving your family under-protected.
                     </p>
                   </AnimatedCard>
                 </StaggerItem>
@@ -175,9 +175,9 @@ export const HomePage: React.FC = () => {
                 <StaggerItem>
                   <AnimatedCard className="p-6 bg-white rounded-xl border border-slate-200/80 shadow-xs space-y-2 h-full">
                     <div className="text-xs font-bold text-rose-800 uppercase tracking-wider">Common Trap</div>
-                    <h3 className="text-base font-bold text-slate-900">Ignored Succession Architecture</h3>
+                    <h3 className="text-base font-bold text-slate-900">No Emergency Safety Cushion</h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
-                      Assuming bank nominations equal legal inheritance, unintentionally exposing hard-earned wealth to costly intergenerational disputes.
+                      Investing aggressively into stocks or locking money away without a 6-month liquid emergency fund and proper family health cover.
                     </p>
                   </AnimatedCard>
                 </StaggerItem>
@@ -187,7 +187,7 @@ export const HomePage: React.FC = () => {
                     <div className="text-xs font-bold text-[#C9A84C] uppercase tracking-wider">The Rathi Solution</div>
                     <h3 className="text-base font-bold text-white">The Personal CFO Model</h3>
                     <p className="text-xs text-slate-300 leading-relaxed">
-                      One dedicated quarterback who orchestrates your investments, taxes, risk protection, and estate transfer into a cohesive masterplan.
+                      One trusted family advisor who organizes your investments, taxes, health cover, and children's future into one simple masterplan.
                     </p>
                   </AnimatedCard>
                 </StaggerItem>
@@ -203,13 +203,13 @@ export const HomePage: React.FC = () => {
           <FadeIn direction="up">
             <div className="text-center max-w-3xl mx-auto space-y-3 mb-16">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Holistic Leadership For Your Family Balance Sheet
+                Dedicated Guidance For Your Family
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A1F44]">
-                What If Your Family Had a Chief Financial Officer?
+                What If Your Family Had a Dedicated Personal CFO?
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Large corporations employ a CFO to ensure capital allocation, cash buffers, and debt structures work in sync. We bring that exact institutional discipline to your personal household.
+                Large corporations hire a Chief Financial Officer to manage every rupee with discipline and foresight. We bring that exact care and expertise to your family household.
               </p>
             </div>
           </FadeIn>
@@ -221,10 +221,10 @@ export const HomePage: React.FC = () => {
                   01
                 </div>
                 <h3 className="text-xl font-serif font-bold text-[#0A1F44]">
-                  Single Point of Strategic Accountability
+                  One Trusted Partner for Everything
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  No more coordinating separately between your tax CA, stock broker, insurance agent, and bank manager. We act as your primary fiduciary strategist.
+                  No more juggling between bank relationship managers, insurance agents, and tax advisors. We look after your entire financial picture together.
                 </p>
               </AnimatedCard>
             </StaggerItem>
@@ -235,10 +235,10 @@ export const HomePage: React.FC = () => {
                   02
                 </div>
                 <h3 className="text-xl font-serif font-bold text-[#0A1F44]">
-                  Life Coaching + Behavioral Discipline
+                  Calm Guidance in Ups & Downs
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  The biggest determinant of long-term returns is not stock-picking; it is emotional coaching during market peaks and corrections to align wealth with life purpose.
+                  Financial success comes from emotional discipline. When markets rise or crash, we guide you calmly so you never make panic decisions that hurt your wealth.
                 </p>
               </AnimatedCard>
             </StaggerItem>
@@ -249,10 +249,10 @@ export const HomePage: React.FC = () => {
                   03
                 </div>
                 <h3 className="text-xl font-serif font-bold text-[#0A1F44]">
-                  Multi-Generational Stewardship
+                  Protecting What You Pass On
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  We work not only with you, but prepare your children and heirs to inherit capital with prudence, financial literacy, and family harmony.
+                  We help you write a clear Will, update bank nominations, and teach your children healthy money habits so your wealth passes on peacefully.
                 </p>
               </AnimatedCard>
             </StaggerItem>
@@ -263,7 +263,7 @@ export const HomePage: React.FC = () => {
               to="/personal-cfo"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#0A1F44] hover:text-[#C9A84C] transition-colors"
             >
-              <span>Learn how the Personal CFO engagement works</span>
+              <span>See how the Personal CFO engagement works</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -276,17 +276,17 @@ export const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <FadeIn direction="left" className="lg:col-span-5 space-y-5">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Structural Hierarchy of Capital
+                Our Core Philosophy
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight">
                 The Rathi Wealth Pyramid
               </h2>
               <p className="text-sm text-slate-300 leading-relaxed">
-                Sustainable multi-generational wealth is constructed like a pyramid. Speculation without a defensive foundation leads to sudden ruin; proper sequencing guarantees resilience.
+                Just like constructing a strong building, lasting wealth requires a solid foundation first. Taking big risks without safety nets leads to stress; proper sequencing ensures complete security.
               </p>
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-300 space-y-2">
-                <p className="font-semibold text-[#C9A84C]">The Core Rule:</p>
-                <p>Never climb to Level 2 (Growth & Aggressive Equity) before Level 1 (Emergency Buffers & Pure Risk Protection) is firmly in place.</p>
+                <p className="font-semibold text-[#C9A84C]">Our Golden Rule:</p>
+                <p>Safety comes first, growth comes second. Never jump into aggressive investments before your emergency funds and family insurance are in place.</p>
               </div>
             </FadeIn>
 
@@ -327,13 +327,13 @@ export const HomePage: React.FC = () => {
               <div className="space-y-2 max-w-2xl">
                 <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
                   <Calculator className="w-3.5 h-3.5" />
-                  <span>Plan With Clarity · Know Your Numbers</span>
+                  <span>Free Tools · Know Your Numbers</span>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A1F44]">
-                  Public Financial Planning Calculators
+                  Simple Financial Planning Calculators
                 </h2>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Test real scenarios with our deterministic, client-side planning engines. Completely free, no login or mobile number required.
+                  See how small monthly investments grow over time, or find out how much you need to retire comfortably. 100% free, no phone number or signup required.
                 </p>
               </div>
               <Link
@@ -371,7 +371,7 @@ export const HomePage: React.FC = () => {
                     </div>
 
                     <div className="pt-6 mt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-[#0A1F44]">
-                      <span>Launch Tool</span>
+                      <span>Try Calculator</span>
                       <ArrowRight className="w-4 h-4 text-[#C9A84C] group-hover:translate-x-1 transition-transform" />
                     </div>
                   </AnimatedCard>
@@ -384,20 +384,20 @@ export const HomePage: React.FC = () => {
             <div className="mt-12 p-6 rounded-2xl bg-[#E6F1FB]/60 border border-blue-100 flex flex-col sm:flex-row items-center justify-between gap-6">
               <div className="space-y-1">
                 <span className="text-xs font-bold uppercase tracking-wider text-[#0A1F44]">
-                  Signature Diagnostic
+                  Free 2-Minute Diagnostic
                 </span>
                 <h4 className="text-lg font-serif font-bold text-[#0A1F44]">
-                  Not sure where to start? Take the 5-Minute Financial Health Checkup
+                  Not sure where to begin? Take our quick Financial Health Checkup
                 </h4>
                 <p className="text-xs text-slate-600">
-                  Score your emergency funds, protection adequacy, debt burden, and succession readiness.
+                  Check your emergency savings, insurance cover, loan safety, and family preparedness in 5 easy questions.
                 </p>
               </div>
               <Link
                 to="/calculators/financial-health-check"
                 className="shrink-0 px-6 py-3 rounded-lg bg-[#0A1F44] hover:bg-[#162f5e] text-white font-semibold text-xs transition-colors flex items-center gap-2 shadow-sm"
               >
-                <span>Take Checkup Now</span>
+                <span>Take 2-Minute Test</span>
                 <ArrowRight className="w-3.5 h-3.5 text-[#C9A84C]" />
               </Link>
             </div>
@@ -411,13 +411,13 @@ export const HomePage: React.FC = () => {
           <FadeIn direction="up">
             <div className="text-center max-w-2xl mx-auto space-y-3 mb-16">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Comprehensive Advisory Capabilities
+                How We Help You
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A1F44]">
                 Five Pillars of Lifelong Wealth Management
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed">
-                From your first SIP to intergenerational succession, our advisory architecture covers every stage of your financial journey.
+                From starting your very first monthly SIP to passing on your assets peacefully to your children, we guide you at every step.
               </p>
             </div>
           </FadeIn>
@@ -463,7 +463,7 @@ export const HomePage: React.FC = () => {
                       </p>
                       <div className="pt-3">
                         <span className="text-xs font-semibold text-slate-500 block uppercase tracking-wider">
-                          Ideal For:
+                          Best Suited For:
                         </span>
                         <p className="text-xs text-slate-800 font-medium mt-1">
                           {current.idealFor}
@@ -473,7 +473,7 @@ export const HomePage: React.FC = () => {
 
                     <div className="md:col-span-7 bg-slate-50 p-6 rounded-xl border border-slate-100 space-y-3">
                       <span className="text-xs font-bold uppercase tracking-wider text-slate-700 block mb-2">
-                        Key Advisory Deliverables:
+                        What We Do For You:
                       </span>
                       <ul className="space-y-2.5 text-xs text-slate-700">
                         {current.offerings.map((off, idx) => (
@@ -488,7 +488,7 @@ export const HomePage: React.FC = () => {
                           to={`/services#${current.id}`}
                           className="text-xs font-bold text-[#0A1F44] hover:text-[#C9A84C] flex items-center gap-1.5"
                         >
-                          <span>Explore full service details</span>
+                          <span>Learn more about this pillar</span>
                           <ArrowRight className="w-3.5 h-3.5" />
                         </Link>
                       </div>
@@ -506,10 +506,10 @@ export const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
             <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-              Our Happy Figures
+              Our Numbers at a Glance
             </span>
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-white">
-              Led by Experience, Trust, and Collaborative Efforts
+              Built on 25+ Years of Trust and Personal Relationships
             </h2>
           </div>
 
@@ -520,7 +520,7 @@ export const HomePage: React.FC = () => {
                   <Counter target={25} suffix="+" />
                 </div>
                 <div className="text-[11px] font-bold uppercase tracking-wider text-slate-200">
-                  Years in Industry
+                  Years Guiding Families
                 </div>
                 <p className="text-[10px] text-slate-400">
                   Central India's 1st CFP®
@@ -537,7 +537,7 @@ export const HomePage: React.FC = () => {
                   Happy Families
                 </div>
                 <p className="text-[10px] text-slate-400">
-                  Generational trust
+                  Across India & abroad
                 </p>
               </div>
             </FadeIn>
@@ -548,10 +548,10 @@ export const HomePage: React.FC = () => {
                   <Counter target={200} prefix="₹" suffix="Cr+" />
                 </div>
                 <div className="text-[11px] font-bold uppercase tracking-wider text-slate-200">
-                  AUM Advised
+                  Savings & Wealth Guided
                 </div>
                 <p className="text-[10px] text-slate-400">
-                  Assets under management
+                  Disciplined mutual funds
                 </p>
               </div>
             </FadeIn>
@@ -565,7 +565,7 @@ export const HomePage: React.FC = () => {
                   People Educated
                 </div>
                 <p className="text-[10px] text-slate-400">
-                  Target: 10,000 by 2028
+                  In free money basics
                 </p>
               </div>
             </FadeIn>
@@ -576,10 +576,10 @@ export const HomePage: React.FC = () => {
                   <Counter target={200} suffix="+" />
                 </div>
                 <div className="text-[11px] font-bold uppercase tracking-wider text-slate-200">
-                  Articles Published
+                  Guides & Articles
                 </div>
                 <p className="text-[10px] text-slate-400">
-                  Financial wisdom columns
+                  Simple everyday advice
                 </p>
               </div>
             </FadeIn>
@@ -590,10 +590,10 @@ export const HomePage: React.FC = () => {
                   <Counter target={70} suffix="+" />
                 </div>
                 <div className="text-[11px] font-bold uppercase tracking-wider text-slate-200">
-                  Investor Programs
+                  Free Workshops
                 </div>
                 <p className="text-[10px] text-slate-400">
-                  Awareness programmes
+                  For offices and groups
                 </p>
               </div>
             </FadeIn>
@@ -640,10 +640,10 @@ export const HomePage: React.FC = () => {
             <FadeIn direction="left" className="lg:col-span-7 space-y-6">
               <div className="space-y-2">
                 <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                  Authentic Leadership
+                  Meet Our Leadership
                 </span>
                 <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A1F44]">
-                  "Financial advisory is not just about managing money; it is about transforming lives."
+                  "Managing money isn't just about spreadsheets. It's about giving your family a peaceful, secure future."
                 </h2>
               </div>
               <p className="text-sm text-slate-600 leading-relaxed">
@@ -665,7 +665,7 @@ export const HomePage: React.FC = () => {
                   to="/about"
                   className="inline-flex items-center gap-2 text-sm font-semibold text-[#0A1F44] hover:text-[#C9A84C] transition-colors"
                 >
-                  <span>Meet all three leaders on the About Us page</span>
+                  <span>Read full bios of Umesh, Vibhuti & Raghav Rathi</span>
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
@@ -681,20 +681,20 @@ export const HomePage: React.FC = () => {
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
               <div className="space-y-2 max-w-2xl">
                 <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                  Financial Literacy Without Product Pitch
+                  Financial Literacy For Everyone
                 </span>
                 <h2 className="text-3xl font-serif font-bold text-[#0A1F44]">
-                  Investor Awareness Programmes
+                  Free Investor Awareness Workshops
                 </h2>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  We have conducted 100+ non-commercial investor workshops across top corporate campuses and organizations, empowering thousands of employees with actionable personal finance basics.
+                  We run free, zero-sales educational sessions for company employees, colleges, and family groups to teach practical money basics that anyone can follow.
                 </p>
               </div>
               <Link
                 to="/workshops"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-xs font-bold text-[#0A1F44] bg-white hover:bg-slate-100 transition-colors border border-slate-200 shrink-0 self-start md:self-auto"
               >
-                <span>Explore Workshop Tracks</span>
+                <span>View Workshop Topics</span>
                 <ArrowRight className="w-4 h-4 text-[#C9A84C]" />
               </Link>
             </div>
@@ -736,13 +736,13 @@ export const HomePage: React.FC = () => {
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
               <div className="space-y-2 max-w-2xl">
                 <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                  Education & Insights
+                  Learn Money Basics
                 </span>
                 <h2 className="text-3xl font-serif font-bold text-[#0A1F44]">
                   Knowledge Centre
                 </h2>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Objective financial planning articles tackling real investor questions, compounding mathematics, and family wealth preservation.
+                  Simple, jargon-free articles answering everyday money questions, explaining mutual funds, and helping you make smart financial choices.
                 </p>
               </div>
               <Link
@@ -800,13 +800,13 @@ export const HomePage: React.FC = () => {
           <FadeIn direction="up">
             <div className="text-center max-w-2xl mx-auto space-y-3 mb-16">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Client Fiduciary Relationships
+                Real Family Stories
               </span>
               <h2 className="text-3xl font-serif font-bold text-[#0A1F44]">
                 What Families Say About Rathi Wealth
               </h2>
               <p className="text-sm text-slate-600">
-                Real testimonials from senior professionals and business founders who have partnered with us across market cycles.
+                Words from doctors, entrepreneurs, and senior executives who have partnered with Umesh Rathi for years.
               </p>
             </div>
           </FadeIn>
@@ -840,7 +840,7 @@ export const HomePage: React.FC = () => {
           <FadeIn direction="up">
             <div className="text-center space-y-3 mb-12">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Clarity & Transparency
+                Clear Answers
               </span>
               <h2 className="text-3xl font-serif font-bold text-[#0A1F44]">
                 Frequently Asked Questions
@@ -898,13 +898,13 @@ export const HomePage: React.FC = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <FadeIn direction="up">
             <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-              Begin Your Family Office Journey
+              Let's Talk About Your Family Goals
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white max-w-2xl mx-auto leading-tight mt-2">
-              Ready to bring complete order to your family wealth?
+              Ready to make your money simple, organized, and stress-free?
             </h2>
             <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed mt-2">
-              Visit our office in Vijay Nagar, Indore or connect via video call for a calm, 30-minute discovery conversation. No sales pitch, no pushy follow-ups.
+              Connect with Umesh Rathi and our team in Indore or book a friendly 30-minute discovery video call. No sales pitch, no pressure.
             </p>
             <div className="pt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
               <motion.button
@@ -914,13 +914,13 @@ export const HomePage: React.FC = () => {
                 className="px-8 py-3.5 rounded-lg bg-[#C9A84C] hover:bg-[#b8973d] text-[#0A1F44] font-bold text-sm transition-all shadow-lg flex items-center gap-2 cursor-pointer"
               >
                 <MessageSquare className="w-4 h-4" />
-                <span>Schedule Confidential Discovery Call</span>
+                <span>Book a Free 30-Minute Consultation</span>
               </motion.button>
               <Link
                 to="/contact"
                 className="px-6 py-3.5 rounded-lg bg-white/10 hover:bg-white/15 text-white font-medium text-sm transition-colors border border-white/20"
               >
-                Indore Office Location & Details
+                Indore Office Location & Phone
               </Link>
             </div>
           </FadeIn>

@@ -11,10 +11,10 @@ export const CalculatorsHubPage: React.FC = () => {
 
   const categories = [
     { id: 'all', label: 'All 10 Calculators' },
-    { id: 'wealth', label: 'Wealth & Compounding' },
-    { id: 'retirement', label: 'Retirement & Cash Flows' },
-    { id: 'protection', label: 'Protection & Safety Nets' },
-    { id: 'goals', label: 'Family Goals & Milestones' },
+    { id: 'wealth', label: 'Wealth & SIPs' },
+    { id: 'retirement', label: 'Retirement & Monthly Income' },
+    { id: 'protection', label: 'Family Protection & Health' },
+    { id: 'goals', label: 'Education & Family Goals' },
   ];
 
   const filteredCalculators = CALCULATORS_CATALOG.filter((calc) => {
@@ -29,8 +29,8 @@ export const CalculatorsHubPage: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Public Financial Calculators Hub | SIP, Retirement, Health Check"
-        description="Explore 10 free, deterministic financial planning calculators from Rathi Wealth. Calculate SIP compounding, retirement corpus, human life value, and financial readiness."
+        title="Free Financial Calculators | SIP, Retirement, Health Check"
+        description="Explore 10 free, simple financial planning calculators from Rathi Wealth. Calculate SIP compounding, retirement pension, insurance need, and financial health."
       />
 
       {/* Header */}
@@ -40,15 +40,15 @@ export const CalculatorsHubPage: React.FC = () => {
             <div className="max-w-3xl space-y-4">
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
                 <Calculator className="w-4 h-4" />
-                <span>Public Financial Planning Toolkit</span>
+                <span>Free Planning Tools</span>
                 <span aria-hidden="true">·</span>
-                <span>100% Free · Client-Side Only</span>
+                <span>100% Free · No Signup Required</span>
               </div>
               <h1 className="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight">
-                Know Your Numbers. Plan With Fiduciary Clarity.
+                Simple Tools to Plan Your Future in Minutes
               </h1>
               <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
-                Calculators should be a helpful first step, not a lead capture trap. Our calculators run locally in your browser with zero registration, zero ads, and transparent mathematical formulas.
+                Calculate how much your monthly SIP will grow, how much money you need to retire comfortably, or test your family's financial health. 100% free with zero ads and zero signups.
               </p>
             </div>
           </FadeIn>

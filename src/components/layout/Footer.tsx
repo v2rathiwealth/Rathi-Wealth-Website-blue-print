@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
               </div>
             </Link>
             <p className="text-slate-300 text-sm leading-relaxed max-w-sm">
-              Rathi Wealth Private Limited redefines financial empowerment by seamlessly blending exceptional financial services with life coaching, ensuring wealth aligns with life's purpose.
+              Simple, honest financial planning and wealth management for families. We act as your Personal CFO — helping you protect, grow, and pass on your wealth safely across generations.
             </p>
             <div className="pt-2 flex flex-col space-y-2 text-xs text-slate-300">
               <div className="flex items-start gap-2">

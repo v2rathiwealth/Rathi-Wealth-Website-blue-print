@@ -12,20 +12,20 @@ export const AboutPage: React.FC = () => {
 
   const values = [
     {
-      title: 'Blending Finance with Life Coaching',
-      description: 'We go beyond traditional numbers and spreadsheets to ensure your wealth is intimately aligned with your life purpose, family values, and long-term peace of mind.',
+      title: 'Money Aligned with Life Goals',
+      description: 'We go beyond dry numbers and spreadsheets. We ensure your savings give you genuine freedom, family security, and peaceful sleep at night.',
     },
     {
-      title: 'Systems-Driven Precision & Continuity',
-      description: 'Legacies are not sustained by visibility, but by reliability. Our internal systems and processes are deliberate, measured, and built to endure across generations.',
+      title: 'Smooth & Dependable Systems',
+      description: 'Good money management is about reliability. Our paperless operations, clear updates, and prompt service keep everything organized and stress-free.',
     },
     {
-      title: 'Education Before Persuasion',
-      description: 'We believe understanding must always precede complexity. We empower families to make informed, calm choices without commercial pressure or product quotas.',
+      title: 'Education Before Investment',
+      description: 'We believe you should always understand where your money goes and why. No confusing jargon, no product sales targets, and zero pressure.',
     },
     {
-      title: 'Decades of Fiduciary Accountability',
-      description: 'With over two decades of advisory heritage in Central India and pan-India reach, we serve as our clients’ lifelong Personal CFO across bull runs, market crashes, and transitions.',
+      title: '25+ Years of Honest Guidance',
+      description: 'Serving as your family’s lifelong Personal CFO through market highs, crashes, and major life milestones with steady, honest advice.',
     },
   ];
 
@@ -50,10 +50,10 @@ export const AboutPage: React.FC = () => {
                   <span>Est. 2021</span>
                 </div>
                 <h1 className="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
-                  Redefining Financial Empowerment.
+                  Empowering Families to Live With Peace of Mind.
                 </h1>
                 <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
-                  At Rathi Wealth, we go beyond traditional methods by seamlessly blending exceptional financial services with life coaching. This unique approach ensures your wealth aligns with your aspirations, unlocking your full potential and helping you achieve holistic financial well-being.
+                  At Rathi Wealth, we believe managing your money shouldn’t just be about numbers and spreadsheets. We combine smart, disciplined financial planning with life coaching — ensuring your money supports your family’s real goals, values, and dreams.
                 </p>
               </div>
               <div className="lg:col-span-4 flex justify-center lg:justify-end">
@@ -352,43 +352,43 @@ export const AboutPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <FadeIn direction="right" className="lg:col-span-6 space-y-5">
               <span className="text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                Core Advisory Architecture
+                Our Core Philosophy
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#0A1F44] tracking-tight">
-                The Wealth Pyramid Philosophy
+                The Wealth Pyramid: How We Protect and Grow Your Money
               </h2>
               <p className="text-base text-slate-700 leading-relaxed font-light">
-                At Rathi Wealth, we build from the foundation up: <strong>security before growth, clarity before complexity, and intention before accumulation.</strong>
+                At Rathi Wealth, we always build from the foundation up: <strong>safety first, growth second, and keeping things simple.</strong>
               </p>
               
               <div className="space-y-4 pt-2">
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                   <div className="flex items-center gap-2">
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-600"></span>
-                    <h4 className="text-sm font-bold text-slate-900">1. Foundation: Wealth Protection</h4>
+                    <h4 className="text-sm font-bold text-slate-900">1. Foundation: Family Safety Net</h4>
                   </div>
                   <p className="text-xs text-slate-600 pl-4.5">
-                    Before deploying aggressive capital into market assets, we secure emergency buffers, medical health covers, and pure term life protection.
+                    Before putting money into market risks, we make sure you have an emergency fund, medical insurance, and adequate pure term life insurance.
                   </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                   <div className="flex items-center gap-2">
                     <span className="w-2.5 h-2.5 rounded-full bg-[#0A1F44]"></span>
-                    <h4 className="text-sm font-bold text-slate-900">2. Middle Tier: Wealth Creation & Goals</h4>
+                    <h4 className="text-sm font-bold text-slate-900">2. Middle Tier: Disciplined Wealth Creation</h4>
                   </div>
                   <p className="text-xs text-slate-600 pl-4.5">
-                    Systematic Investment Plans (SIP), asset allocation, and disciplined equity & debt compounding aligned with milestone timeframes.
+                    Monthly SIPs in quality mutual funds, designed to beat inflation and achieve your big life dreams (buying a home, child’s college).
                   </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
                   <div className="flex items-center gap-2">
                     <span className="w-2.5 h-2.5 rounded-full bg-[#C9A84C]"></span>
-                    <h4 className="text-sm font-bold text-slate-900">3. Apex Tier: Legacy & Wealth Transfer</h4>
+                    <h4 className="text-sm font-bold text-slate-900">3. Top Tier: Passing on Your Legacy</h4>
                   </div>
                   <p className="text-xs text-slate-600 pl-4.5">
-                    Intergenerational wealth succession, testamentary wills, private trust advisory, and family estate governance.
+                    Writing a clear Will, updating nominations across all investments, and passing on your wealth smoothly to your children.
                   </p>
                 </div>
               </div>
@@ -426,10 +426,10 @@ export const AboutPage: React.FC = () => {
                 What We Stand For
               </span>
               <h2 className="text-3xl font-serif font-bold text-[#0A1F44]">
-                Our Fiduciary Philosophy
+                Our Four Core Values
               </h2>
               <p className="text-sm text-slate-600 leading-relaxed">
-                The founding ethos that guides every client conversation, internal workflow, and portfolio review.
+                The founding values that guide every client conversation, financial plan, and review.
               </p>
             </div>
           </FadeIn>
@@ -464,14 +464,14 @@ export const AboutPage: React.FC = () => {
               Start Your Journey with Rathi Wealth
             </h2>
             <p className="text-sm text-slate-600 max-w-xl mx-auto leading-relaxed mt-2">
-              Visit our office at 222, Krishna Business Center, Vijay Nagar, Indore, or connect online for a calm, 30-minute discovery conversation.
+              Visit our office at 222, Krishna Business Center, Vijay Nagar, Indore, or connect online for a friendly, 30-minute discovery conversation.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
               <button
                 onClick={() => setConsultationOpen(true)}
                 className="px-8 py-3.5 rounded-lg bg-[#0A1F44] hover:bg-[#162f5e] text-white font-bold text-sm transition-all shadow-md inline-flex items-center gap-2 cursor-pointer"
               >
-                <span>Request Discovery Conversation</span>
+                <span>Book a Discovery Call</span>
                 <ArrowRight className="w-4 h-4 text-[#C9A84C]" />
               </button>
               <Link
