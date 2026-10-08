@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-navy: #0A1F44;
+    --brand-navy-dark: #06142c;
+    --brand-navy-light: #162f5e;
+    --brand-gold: #C9A84C;
+    --brand-gold-hover: #b8973d;
+    --brand-gold-light: #f7f3e8;
+    --brand-light-blue: #E6F1FB;
+    --brand-light-green: #EAF3DE;
+    --brand-light-amber: #FAEEDA;
+    --brand-error-red: #B42318;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #1e293b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom scrollbars for clean presentation */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Range input styling for sleek calculator sliders */
+input[type="range"] {
+  accent-color: #0A1F44;
+}

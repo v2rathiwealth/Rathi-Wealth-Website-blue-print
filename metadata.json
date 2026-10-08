@@ -1,0 +1,6 @@
+{
+  "name": "Rathi Wealth - Wealth For Generations",
+  "description": "Rathi Wealth provides holistic financial planning, Personal CFO guidance, and public financial calculators for wealth creation, retirement, and legacy preservation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
