@@ -51,18 +51,27 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
       <div className="relative bg-white rounded-2xl max-w-lg w-full shadow-2xl border border-slate-100 overflow-hidden text-left">
         {/* Header */}
         <div className="bg-[#0A1F44] text-white p-6 sm:p-8 flex items-start justify-between">
-          <div>
-            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#C9A84C] mb-1">
-              <span>Personal CFO Advisory</span>
-              <span aria-hidden="true">·</span>
-              <span>Confidential</span>
+          <div className="flex items-start gap-4">
+            <div className="w-11 h-11 p-1 rounded-lg bg-white/10 border border-[#C9A84C]/30 shrink-0 hidden sm:flex items-center justify-center">
+              <img
+                src="/images/logo-icon-light.png"
+                alt="Rathi Wealth"
+                className="w-full h-full object-contain"
+              />
             </div>
-            <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
-              Schedule a Consultation
-            </h3>
-            <p className="text-xs text-slate-300 mt-1 max-w-sm">
-              Speak directly with Umesh Rathi and our senior advisory team. No product sales pitch—just clear, fiduciary guidance.
-            </p>
+            <div>
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#C9A84C] mb-1">
+                <span>Personal CFO Advisory</span>
+                <span aria-hidden="true">·</span>
+                <span>Confidential</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
+                Schedule a Consultation
+              </h3>
+              <p className="text-xs text-slate-300 mt-1 max-w-sm">
+                Speak directly with Umesh Rathi and our senior advisory team. No product sales pitch—just clear, fiduciary guidance.
+              </p>
+            </div>
           </div>
           <button
             onClick={onClose}

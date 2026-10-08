@@ -70,16 +70,25 @@ export const ContactPage: React.FC = () => {
             <div className="lg:col-span-5 space-y-8">
               <FadeIn direction="up" delay={0.1}>
                 <div className="bg-white rounded-2xl border border-slate-200 p-8 shadow-xs space-y-6">
-                  <div>
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-[#C9A84C] block">
-                      Registered Corporate Office
-                    </span>
-                    <h2 className="text-xl font-serif font-bold text-[#0A1F44] mt-0.5">
-                      Rathi Wealth Private Limited
-                    </h2>
-                    <span className="text-xs text-slate-500 font-medium block">
-                      AMFI Registered Mutual Fund Distributor
-                    </span>
+                  <div className="flex items-center gap-4">
+                    <div className="w-14 h-14 p-1.5 bg-slate-50 rounded-xl border border-slate-200 shrink-0 flex items-center justify-center">
+                      <img
+                        src="/images/logo-tight.png"
+                        alt="Rathi Wealth Logo"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <div>
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-[#C9A84C] block">
+                        Registered Corporate Office
+                      </span>
+                      <h2 className="text-xl font-serif font-bold text-[#0A1F44] mt-0.5">
+                        Rathi Wealth Private Limited
+                      </h2>
+                      <span className="text-xs text-slate-500 font-medium block">
+                        AMFI Registered Mutual Fund Distributor
+                      </span>
+                    </div>
                   </div>
 
                   <div className="space-y-4 text-xs sm:text-sm text-slate-600">

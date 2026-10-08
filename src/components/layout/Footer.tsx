@@ -10,18 +10,22 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
           {/* Brand info */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center text-[#C9A84C] font-bold text-xl border border-[#C9A84C]/40">
-                R
+            <Link to="/" className="flex items-center gap-3.5 group shrink-0" aria-label="Rathi Wealth Home">
+              <div className="w-12 h-12 flex items-center justify-center p-1 rounded-lg bg-white/5 border border-[#C9A84C]/30 transition-transform group-hover:scale-105 shrink-0">
+                <img
+                  src="/images/logo-icon-light.png"
+                  alt="Rathi Wealth Emblem"
+                  className="w-full h-full object-contain filter drop-shadow-sm"
+                />
               </div>
-              <div>
-                <span className="text-xl font-serif font-bold text-white tracking-wide">
+              <div className="flex flex-col shrink-0 min-w-0">
+                <span className="text-xl font-serif font-bold text-white tracking-wide whitespace-nowrap leading-tight">
                   RATHI WEALTH
                 </span>
-                <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-[#C9A84C]">
+                <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-[#C9A84C] whitespace-nowrap mt-0.5">
                   Wealth For Generations
                 </p>
-                <span className="text-[10px] text-slate-400 block mt-0.5">
+                <span className="text-[10px] text-slate-400 block mt-0.5 whitespace-nowrap">
                   AMFI Registered Mutual Fund Distributor
                 </span>
               </div>

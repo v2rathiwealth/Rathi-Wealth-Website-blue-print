@@ -40,18 +40,36 @@ export const AboutPage: React.FC = () => {
       <section className="relative bg-gradient-to-b from-[#0A1F44] via-[#0A1F44] to-[#162f5e] text-white py-16 sm:py-24 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <FadeIn direction="up">
-            <div className="max-w-3xl space-y-4">
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
-                <span>About Rathi Wealth Private Limited</span>
-                <span aria-hidden="true">·</span>
-                <span>AMFI Registered</span>
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-8 space-y-4">
+                <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#C9A84C]">
+                  <span>About Rathi Wealth Private Limited</span>
+                  <span aria-hidden="true">·</span>
+                  <span>AMFI Registered</span>
+                  <span aria-hidden="true">·</span>
+                  <span>Est. 2021</span>
+                </div>
+                <h1 className="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
+                  Redefining Financial Empowerment.
+                </h1>
+                <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
+                  At Rathi Wealth, we go beyond traditional methods by seamlessly blending exceptional financial services with life coaching. This unique approach ensures your wealth aligns with your aspirations, unlocking your full potential and helping you achieve holistic financial well-being.
+                </p>
               </div>
-              <h1 className="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
-                Redefining Financial Empowerment.
-              </h1>
-              <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-light">
-                At Rathi Wealth, we go beyond traditional methods by seamlessly blending exceptional financial services with life coaching. This unique approach ensures your wealth aligns with your aspirations, unlocking your full potential and helping you achieve holistic financial well-being.
-              </p>
+              <div className="lg:col-span-4 flex justify-center lg:justify-end">
+                <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm flex flex-col items-center text-center max-w-xs shadow-xl">
+                  <div className="w-28 h-28 sm:w-32 sm:h-32 p-3 bg-white rounded-2xl shadow-md flex items-center justify-center mb-3">
+                    <img
+                      src="/images/logo-tight.png"
+                      alt="Rathi Wealth Official Logo"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <span className="text-sm font-serif font-bold text-white">Rathi Wealth Private Limited</span>
+                  <span className="text-[11px] text-[#C9A84C] tracking-wider uppercase font-medium mt-0.5">Wealth For Generations</span>
+                  <span className="text-[10px] text-slate-400 mt-1">CIN: U66190MP2021PTC058448</span>
+                </div>
+              </div>
             </div>
           </FadeIn>
         </div>

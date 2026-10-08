@@ -5,6 +5,11 @@ export const BRAND_INFO = {
   legalName: 'Rathi Wealth Private Limited',
   tagline: 'Wealth For Generations',
   badge: 'AMFI Registered Mutual Fund Distributor',
+  logo: '/images/logo-tight.png',
+  logoIcon: '/images/logo-icon.png',
+  logoLight: '/images/logo-light.png',
+  logoIconLight: '/images/logo-icon-light.png',
+  logoOriginal: '/images/logo.png',
   shortBio: 'At Rathi Wealth, we redefine financial empowerment, going beyond the traditional method by seamlessly blending exceptional financial services with life coaching. This unique approach ensures your wealth aligns with your aspirations, unlocking your full potential and helping you achieve holistic financial well-being.',
   founder: {
     name: 'Umesh Rathi',
